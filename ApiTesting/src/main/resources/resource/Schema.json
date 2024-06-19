@@ -1,0 +1,46 @@
+{
+	"type": "object",
+	"properties": {
+		"id": {
+			"type": "string"
+		},
+		"content": {
+			"type": "string"
+		},
+		"user": {
+			"type": "string"
+		},
+		"post": {
+			"type": "string"
+		},
+		"_links": {
+			"type": "object",
+			"properties": {
+				"self": {
+					"type": "object",
+					"properties": {
+						"href": {
+							"type": "string"
+						}
+					}
+				},
+				"modify": {
+					"type": "object",
+					"properties": {
+						"href": {
+							"type": "string"
+						}
+					}
+				},
+				"delete": {
+					"type": "object",
+					"properties": {
+						"href": {
+							"type": "string"
+						}
+					}
+				}
+			}
+		}
+	}
+}
